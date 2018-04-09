@@ -1,0 +1,15 @@
+<Context antiJARLocking="true" crossContext="false" reloadable="true">
+    <Resource name="msadworks"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+              url="jdbc:sqlserver://localhost:1433;databaseName=test"
+              username="sa"
+              password=""
+              maxActive="1000"
+              maxIdle="30"
+              maxWait="10000"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              logValidationErrors="true"
+    />
+</Context>
